@@ -25,7 +25,7 @@ async function generate () {
 			let file = await fs.readFile("../fmfenxiang/" + j.id + "/" + filename);
 			if (crypto.createHash('sha1').update(file).digest('hex') === checksum) {
 				let mfilename = '';
-				if (!filename.includes(filetype.ext)) {
+				if (filename.substring(filename.lastIndexOf(".") + 1) !== filetype.ext) {
 					mfilename = ' --remote-name "' + filename.substring(0, filename.lastIndexOf(".") + 1) + filetype.ext + '"';
 				}
 				console.log('ia up fmfenxiang-' + i.id + ' "'+ j.id + "/" + filename + '"' + mfilename + info);
