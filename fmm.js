@@ -7,7 +7,7 @@ let cookie_lilychu4566 = "remember_web_59ba36addc2b2f9401580f014c7f58ea4e30989d=
 let cookie_lilychu1779 = "remember_web_59ba36addc2b2f9401580f014c7f58ea4e30989d=eyJpdiI6IjRublg3MW90dGVQN21qR015MlBzeVE9PSIsInZhbHVlIjoicW5Wa2RjeE9yakNNQ29SbW5lZ09rSUFsU2padUNyUnlMT2dUNXRKVE1yWjFmUFFQRGJqZHlJRVhpYXhwaWxNV01VbFc0RVJFbDNYSmRpT0d2MXZwNnFIRTUxeUVPdHJYdkt6TUVmRW5UR1Y5TVU5cUs4TkVRejhRNnIrN1FoM1VmQWxVbFpId1N6VTZkckhGblQ1b1NycnQwSGdDbk5BNUFWbnlQUmlJd3hVNmhjMVozb1RVc2NreDdCRTZmV2JObG9JWEFYS1k5SkxNZ3hOR2dObFVlM2kzbUJlRjgvNlk2VjlJUmFrbTBFaz0iLCJtYWMiOiIxYzU2NjNhNTdmZDU4N2FjMDQzNTRmM2IxNzgxZjIzMjMxYzExMWZlZDczZWIwMTEwNTJjZGJlNDdlYzJlNTFmIiwidGFnIjoiIn0%3D";
 
 let nodes = JSON.parse(await fs.readFile('../getEpisodes 02-01-2026.json', 'utf-8'));
-let priority = [12336];
+let priority = [11515, 11525, 12336, 11714, 11418, 12245, 12337, 11538, 11786, 12414, 12648, 12657, 10818, 11317, 11925, 10772, 11315];
 let count = [];
 
 async function queue (list) {
