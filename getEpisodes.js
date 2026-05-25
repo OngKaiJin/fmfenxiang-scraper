@@ -22,7 +22,7 @@ async function loop(start) {
 			for (let i of doc.querySelectorAll("main > div:nth-child(2) a")) {
 				episode = {};
 				episode.id = i.href.replace(site + "/sound/","");
-				episode.title = i.querySelector("p").innerHTML.trim();
+				episode.title = i.querySelector("span").innerHTML.trim();
 				episodes.push(episode);
 			}
 			item = {};
